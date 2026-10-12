@@ -25,3 +25,5 @@
 ### Kết luận
 - Việc bổ sung `cache: 'gradle'` giúp Gradle tái sử dụng các artifact/dependency đã tải trước đó từ cache của GitHub Actions thay vì phải tải lại toàn bộ từ Maven Central qua Internet.
 - Luồng CI phản hồi kết quả nhanh hơn, tiết kiệm runner minutes và tăng năng suất phát triển phần mềm.
+
+<!-- test cache trigger -->
